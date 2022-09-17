@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/option.xsd">
+	<import>
+		<categories>
+			<category name="board.thread.twentyfour">
+				<parent>board.thread</parent>
+			</category>
+		</categories>
+		
+		<options>
+			<option name="wbb_board_thread_twentyfour_time">
+				<categoryname>board.thread.twentyfour</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>24</defaultvalue>
+				<minvalue>1</minvalue>
+				<maxvalue>2550</maxvalue>
+				<suffix>uzhours</suffix>
+			</option>
+			<option name="wbb_board_thread_twentyfour_closed">
+				<categoryname>board.thread.twentyfour</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="wbb_board_thread_twentyfour_done">
+				<categoryname>board.thread.twentyfour</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>

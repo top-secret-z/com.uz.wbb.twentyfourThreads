@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.board.canViewTwentyfourThreads"><![CDATA[Kann Themen der letzten 24 Stunden sehen]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.board.thread.twentyfour"><![CDATA[Themen der letzten 24 Stunden]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_twentyfour_closed"><![CDATA[Geschlossene Themen anzeigen]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_twentyfour_done"><![CDATA[Erledigte Themen anzeigen]]></item>
+		<item name="wcf.acp.option.wbb_board_thread_twentyfour_time"><![CDATA[Zeitraum]]></item>
+		<item name="wcf.acp.option.suffix.uzhours"><![CDATA[Stunden]]></item>
+	</category>
+	
+	<category name="wbb.thread">
+		<item name="wbb.thread.twentyfour"><![CDATA[Themen der letzten {if WBB_BOARD_THREAD_TWENTYFOUR_TIME == 1}Stunde{else}{#WBB_BOARD_THREAD_TWENTYFOUR_TIME} Stunden{/if}]]></item>
+	</category>
+</language>
